@@ -27,13 +27,15 @@ plugins:
   - jemoji
   - jekyll-remote-theme
   - jekyll-readme-index
+  #- wing
+  #- reveal-ck-mermaid-plugin
+  #- jekyll-mermaid-diagrams
+  #- jekyll-mermaid
 
 readme_index:
   enabled: true
   remove_originals: true
   with_frontmatter: true
-
-gems: [jekyll-mermaid-diagrams]
 
 # Other Variables
 contributors: '[contributors](https://github.com/T-Systems-MMS/phonebook/graphs/contributors)'
